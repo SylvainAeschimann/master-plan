@@ -1,0 +1,383 @@
+[
+    {
+        "id": 1,
+        "name": "Economie, emplois et formation",
+        "icon": "icones/economie.svg",
+        "articles": [
+                {
+                    "id": 1,
+                    "name": "Renforcer la collaboration entre les parties prenantes",
+                    "measures": [
+                        {
+                            "id": 1,
+                            "name": "Renforcer le rôle des faîtières",
+                            "start": 2023,
+                            "end": 2023,
+                            "state" : {
+                                "id": 3,
+                                "name": "Terminé"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 1,
+                                    "name": "Verbier Tourisme SA"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Commune Val De Bagnes"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2ème semestre 2023",
+                                    "description": "Le service culturel a Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Créer une charte touristique",
+                            "start": 2023,
+                            "end": 2024,
+                            "state" : {
+                                "id": 1,
+                                "name": "Non commencé"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 1,
+                                    "name": "Verbier Tourisme SA"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2ème semestre 2023",
+                                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Consolider l’attrait fiscal et parafiscal",
+                    "measures": [
+                        {
+                            "id": 1,
+                            "name": "Maintien du coefficient et taux d'indexation minimal",
+                            "start": 2023,
+                            "end": 2025,
+                            "state" : {
+                                "id": 2,
+                                "name": "En cours"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 2,
+                                    "name": "Commune Val De Bagnes"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a ..."
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2ème semestre 2023",
+                                    "description": "Nous avons réalisé..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Conférence intercantonale des communes 'contributrices'",
+                            "start": 2023,
+                            "end": 2025,
+                            "state" : {
+                                "id": 1,
+                                "name": "Non commencé"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 3,
+                                    "name": "Projet identifié Master Plan"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a ..."
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2ème semestre 2023",
+                                    "description": "Nous avons réalisé..."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Soutenir et promouvoir la production agricole locale",
+                    "measures": [
+                        {
+                            "id": 1,
+                            "name": "Soutenir et collaborer avec le projet PDR Grand Entremont",
+                            "start": 2023,
+                            "end": 2024,
+                            "state" : {
+                                "id": 3,
+                                "name": "Terminé"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 2,
+                                    "name": "Commune Val De Bagnes"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Projet identifié Master Plan"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2ème semestre 2023",
+                                    "description": "Nous avons réalisé Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "Fin des travaux",
+                                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Renforcer les collaborations agriculture – tourisme",
+                            "start": 2024,
+                            "end": 2024,
+                            "state" : {
+                                "id": 1,
+                                "name": "Non commencé"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 2,
+                                    "name": "Commune Val De Bagnes"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                }
+                            ]
+                        }
+                    ]
+                }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Durabilité",
+        "icon": "icones/durabilite.svg",
+        "articles": [
+                {
+                    "id": 1,
+                    "name": "Préserver le patrimoine naturel et culturel",
+                    "measures": [
+                        {
+                            "id": 1,
+                            "name": "Projets de biodiversité",
+                            "start": 2023,
+                            "end": 2025,
+                            "state" : {
+                                "id": 2,
+                                "name": "En cours"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 1,
+                                    "name": "Verbier Tourisme SA"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a ..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Infrastructures et mobilités",
+        "icon": "icones/infrastructure.svg",
+        "articles": [
+                {
+                    "id": 1,
+                    "name": "Dimensionner les infrastructures aux ambitions de la destination",
+                    "measures": [
+                        {
+                            "id": 1,
+                            "name": "Projets de biodiversité",
+                            "start": 2023,
+                            "end": 2025,
+                            "state" : {
+                                "id": 2,
+                                "name": "En cours"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 1,
+                                    "name": "Verbier Tourisme SA"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a ..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Offre, accueil et qualité",
+        "icon": "icones/offre.svg",
+        "articles": [
+                {
+                    "id": 1,
+                    "name": "Renforcer les offres existantes en favorisant le lissage géographique et 4 saisons",
+                    "measures": [
+                        {
+                            "id": 1,
+                            "name": "Projets de biodiversité",
+                            "start": 2023,
+                            "end": 2025,
+                            "state" : {
+                                "id": 2,
+                                "name": "En cours"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 1,
+                                    "name": "Verbier Tourisme SA"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a ..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Marketing et promotion",
+        "icon": "icones/marketing.svg",
+        "articles": [
+                {
+                    "id": 1,
+                    "name": "Passer d’une station à une marque partagée",
+                    "measures": [
+                        {
+                            "id": 1,
+                            "name": "Projets de biodiversité",
+                            "start": 2023,
+                            "end": 2025,
+                            "state" : {
+                                "id": 2,
+                                "name": "En cours"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 1,
+                                    "name": "Verbier Tourisme SA"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a ..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Suivi du Master Plan et communication",
+        "icon": "icones/suivi.svg",
+        "articles": [
+                {
+                    "id": 1,
+                    "name": "Tenir à jour le Master Plan",
+                    "measures": [
+                        {
+                            "id": 1,
+                            "name": "Projets de biodiversité",
+                            "start": 2023,
+                            "end": 2025,
+                            "state" : {
+                                "id": 2,
+                                "name": "En cours"
+                            },
+                            "parts" : [
+                                {
+                                    "id": 1,
+                                    "name": "Verbier Tourisme SA"
+                                }
+                            ],
+                            "steps" : [
+                                {
+                                    "id": 1,
+                                    "title": "1er semestre 2023",
+                                    "description": "Le service culturel a ..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+@import "./breakdown.scss";
+/*___COLORS___*/
+
+$blue: #005EB8;
+$red: #FF0000;
+$red-hover: #ff6767;
+$black: #252523;
+$grey: #A2A2A2;
+$light-grey: #F1F1F1;
+$white: #FFFFFF;
+$green: rgb(37, 184, 42);
+$orange: #ff9500;
+
+/*___LAYOUT___*/
+
+$shadow:rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+$big-border:50px;
+
+:root{
+    --header-height:75px;
+    @include tablet{
+        --header-height:120px;
+    }
+}

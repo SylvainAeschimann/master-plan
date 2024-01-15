@@ -1,0 +1,55 @@
+$screen-sm-min: 375px; //0px to 375px
+$screen-sm-max: 900px; //900px to 1200px
+$screen-cp-min: 1200px; //1200px to xxx
+$screen-cp-max: 2560px; //1200px to xxx
+
+@mixin smartphoneMini {
+  @media
+  only screen and ( -webkit-max-device-pixel-ratio: 2) and  (max-width: #{$screen-sm-min} ),
+  only screen and ( max--moz-device-pixel-ratio: 1) and  (max-width: #{$screen-sm-min} ), 
+  only screen and ( -o-max-device-pixel-ratio: 2 / 1) and  (max-width: #{$screen-sm-min} ),
+  only screen and ( max-device-pixel-ratio: 2) and  (max-width: #{$screen-sm-min} )
+  {
+      @content;
+  }
+}
+
+@mixin tablet {
+    @media
+    only screen and ( -webkit-max-device-pixel-ratio: 2.1) and  (min-width: #{$screen-sm-max} ),
+    only screen and ( max--moz-device-pixel-ratio: 2.1) and  (min-width: #{$screen-sm-max} ), 
+    only screen and ( -o-max-device-pixel-ratio: 2.1 / 1) and  (min-width: #{$screen-sm-max} ),
+    only screen and ( max-device-pixel-ratio: 2.1) and  (min-width: #{$screen-sm-max} )
+        { 
+        @content;
+    }
+}
+
+@mixin computer {
+  @media (min-width: #{$screen-cp-min}) {
+      @content;
+  }
+}
+
+@mixin big-desktop {
+    @media
+    only screen and ( -webkit-max-device-pixel-ratio: 2.1) and  (min-width: #{$screen-cp-max} ),
+    only screen and ( max--moz-device-pixel-ratio: 2.1) and  (min-width: #{$screen-cp-max} ), 
+    only screen and ( -o-max-device-pixel-ratio: 2.1 / 1) and  (min-width: #{$screen-cp-max} ),
+    only screen and ( max-device-pixel-ratio: 2.1) and  (min-width: #{$screen-cp-max} )
+        { 
+      @content;
+  }
+}
+
+@mixin smartphone-landscape {
+  @media only screen and (max-width: 1023px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait {
+  @media only screen and (min-width: 536px) and (orientation: portrait) {
+    @content;
+  }
+}
